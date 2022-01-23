@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>signUp</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">User-SignUp click here</a>
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       -->
+    <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+    <!-- <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown1
+              </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul> -->
+    <!-- <div  class="form-inline my-2 my-lg-0"> -->
+    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+    <!-- <button  onclick="login1()" class="btn btn-outline-success my-2 my-sm-0" type="submit">GoTO Login</button> -->
+    <!-- </div> -->
+    <!-- </div> -->
+  </nav>
+
+
+
+  <div class="rounded" alt="Cinque Terre">
+
+
+    <!-- form -->
+    <!-- <br>
+<br> -->
+
+    <body class="main-bg">
+      <div class="login-container text-c animated flipInX">
+        <div>
+          <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+        </div>
+        <h3 class="text-whitesmoke">SignUp</h3>
+        <p class="text-whitesmoke">Restaurant</p>
+        <div class="container-content">
+
+          <div class="form-group">
+            <input id="username" type="text" class="form-control" placeholder="Please Enter Restaurant-name"
+              required="">
+
+          </div>
+          <div class="message" id="message_username">
+          </div>
+
+
+          <div class="form-group">
+            <input id="country" type="text" class="form-control" placeholder="Please Enter country-name" required="">
+
+          </div>
+          <div class="message" id="message_country">
+          </div>
+
+
+
+          <div class="form-group">
+            <input id="city" type="text" class="form-control" placeholder="Please Enter city-name" required="">
+
+          </div>
+          <div class="message" id="message_city">
+          </div>
+
+
+
+          <div class="form-group">
+            <input id="email" type="text" class="form-control" placeholder="Please Enter Email" required="">
+          </div>
+
+          <div class="message" id="message_mail">
+          </div>
+          <div class="form-group">
+            <input id="password" type="password" class="form-control" placeholder="*******" required="">
+          </div>
+          <div class="message" id="message_password">
+          </div>
+
+          <!-- <input type="password" name="" id="password"> -->
+          <button onclick="check5()" type="submit" class="form-button button-l margin-b">SignUp</button>
+
+          <a class="text-darkyellow" href="#"><small>Forgot your password?</small></a>
+          <p class="text-whitesmoke text-center"><small>Do not have an account?</small></p>
+          <a class="text-darkyellow" href="signin.html"><small>Sign In</small></a>
+
+          <p class="margin-t text-whitesmoke"><small> Your Name &copy; 2021</small> </p>
+        </div>
+      </div>
+  </div>
+
+  <!-- <div class="container">
+          <h1>SignUp Form</h1>
+          <div class="form-group" >
+            <label for="exampleInputEmail1">UserName</label>
+            <input type="email" class="form-control" id="username" aria-describedby="emailHelp" >
+      </div>
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button  onclick="signup()" type="submit" class="btn btn-primary">Signup</button>
+      
+    </div> -->
+
+
+
+
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyB6w3vyI52yVplSmFC0lY_V8cZ-sdyEkiw",
+      authDomain: "union-6ee26.firebaseapp.com",
+      projectId: "union-6ee26",
+      storageBucket: "union-6ee26.appspot.com",
+      messagingSenderId: "404847651703",
+      appId: "1:404847651703:web:73e0566b06ced3521ecf72",
+      measurementId: "G-FZK6YNM01R"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="app5.js"></script>
+
+</body>
+
+</html>

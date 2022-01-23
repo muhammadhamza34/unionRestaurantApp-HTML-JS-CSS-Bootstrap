@@ -1,0 +1,33 @@
+.container-fluid {
+  background-color: black !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  /* margin-top: 20px; */
+}
+.card {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .d-flex {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .d-flex {
+    display: flex;
+    justify-content: center;
+  }
+}
+.card-img-top {
+  padding-right: 14px !important;
+}
